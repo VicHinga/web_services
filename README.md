@@ -1,9 +1,9 @@
 # WEB_SERVICES
 
-It is a client-server application or application component for communication.
-The method of communication between two devices over the network.
-It is a software system for the interoperable machine to machine communication.
-It is a collection of standards or protocols for exchanging information between two devices or application.
+1. It is a client-server application or application component for communication.
+2. The method of communication between two devices over the network.
+3. It is a software system for the interoperable machine to machine communication.
+4. It is a collection of standards or protocols for exchanging information between two devices or application.
 
 
 
