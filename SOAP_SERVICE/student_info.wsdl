@@ -1,0 +1,14 @@
+$server->configureWSDL('studentServer', 'urn:student');
+$server->register('fetchStudentData',
+
+      array('id' => 'xsd:string'),  //parameter
+
+      array('data' => 'xsd:string'),  //output
+
+      'urn:student',   //namespace
+
+      'urn:student#fetchStudentData' //soapaction
+
+      );  
+
+$server->service(file_get_contents("php://input"));
